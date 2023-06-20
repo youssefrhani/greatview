@@ -1,0 +1,42 @@
+.header .logout-btn {
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    position: right;
+    background-color: #009879;
+    color:#fff
+  }
+  
+  .header {
+    display: flex;
+    justify-content: normal;
+    padding: 10px 7px;
+    background-color: #353c41;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 13;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .header button {
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #353c41;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .header button:hover {
+    background-color: #f11313;
+  }
+  

@@ -1,0 +1,120 @@
+
+ .delete-button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #009879;
+  color:#fff
+  }
+
+.header .logout-btn {
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    position: right;
+    background-color: #009879;
+    color:#fff
+  }
+  
+  .header {
+    display: flex;
+    justify-content: normal;
+    padding: 10px 7px;
+    background-color: #353c41;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 13;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .header button {
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #353c41;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .header button:hover {
+    background-color: #f11313;
+
+  }
+  .delete-button:hover {
+    background-color: #f11313;
+
+  }
+  
+  
+  .content-table {
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    margin: 80px 0;
+    font-size: 0.9em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .datetime {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    height: 18px;
+    border:10px solid #009879;
+    border-radius: 5px;
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+   
+  }
+  .message {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    height: 18px;
+    border:10px solid #009879;
+    border-radius: 5px;
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+
+    
+ 
+    
+    
+  }
