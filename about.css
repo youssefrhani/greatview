@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #353c41;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    border-radius: 10px;
+    width: 50%;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .team-member-name {
+    font-weight: bold;
+    color: #333333;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+ 
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
